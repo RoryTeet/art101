@@ -4,6 +4,17 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
     background-color: #DDD8C4;
-  }
+
+}
+p{
+  text-indent: 30px;
+ }
+h1{
+  color: darkorchid;
+  font-size: 200%;
+}
+.content2 {
+  width: 500px;
+  border: dotted 5px black
+}
