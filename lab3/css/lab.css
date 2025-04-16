@@ -7,3 +7,7 @@
     border: solid 1px #888;
     background-color: #cdb2d4;
   }
+  .screenshot{
+    max-width: 600px;
+    height: auto;
+  }
