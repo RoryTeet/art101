@@ -4,6 +4,9 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 1px #4d7a8f;
+    background-color: #6fa08c;
   }
+.pseudocode {
+  max-width: 700px;
+}
