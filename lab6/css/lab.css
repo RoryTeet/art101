@@ -7,3 +7,6 @@
     border: solid 1px #888;
     background-color: #9fcfd2;
   }
+  .scmetro {
+    max-width: 450px;
+  }
