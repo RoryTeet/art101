@@ -9,7 +9,7 @@
 // sortUserName - a function that takes user input and sorts the letters
 // of their name
 function sortUserName(userName) {
-    var userName = window.prompt("Hi! Whats your name? sorry, I forgot.");
+    var userName = window.prompt("Hi. Whats your name, I forgot.");
     console.log("userName =", userName);
     //split array
     var nameArray = userName.split('');
@@ -23,11 +23,11 @@ function sortUserName(userName) {
     return nameSorted;
 }
 
+
 //outputs
 function main() {
-document.writeln("And oh hey, I fixed your name:");
-    sortUserName(), "</br>";
-document.writeln("<div class='name'>" + randomName + "</div>")
+document.writeIn("oh hey, I fixed your name:",
+    sortUserName(), "</br>");
 }
 
 // this is an example function and this comment tells what it doees and what parameters are passed to it.
