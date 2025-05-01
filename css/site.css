@@ -34,7 +34,8 @@ h1 {
   margin-bottom: 10px;
   border: dotted 5px #e335ba;
   background-color: #c1b6da;
+  font-size: large;
 }
-.lab-links {
-  font-size: 20px;
+ul.lab-links {
+  font-size: larger;
 }
