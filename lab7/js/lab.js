@@ -23,22 +23,6 @@ function sortUserName(userName) {
     return nameSorted;
 }
 
-// sortUserName - a function that takes user input and sorts the letters
-// of their name
-function randomizeName(userName) {
-    // convert userName string to an array
-    var nameArray = userName.toLowerCase().split("");
-    console.log("nameArray =", nameArray);
-    // shuffle array with our shuffle function
-    var shuffledArray = shuffleArray(nameArray);
-    console.log("shuffledArray =", shuffledArray);
-    var shuffledString = shuffledArray.join("");
-    // shift to Title Case (like a name)
-    var newName = toTitleCase(shuffledString);
-    // return array to a string
-    return newName;
-}
-
 //outputs
 function main() {
 document.writeln("And oh hey, I fixed your name:");
