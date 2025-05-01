@@ -1,0 +1,59 @@
+// index.js - Lab 7 Functions
+// Author: Rory Teeter
+// Date: 05-01-25
+
+// Constants
+
+// Functions
+
+// sortUserName - a function that takes user input and sorts the letters
+// of their name
+function sortUserName(userName) {
+    var userName = window.prompt("Hi! Whats your name? sorry, I forgot.");
+    console.log("userName =", userName);
+    //split array
+    var nameArray = userName.split('');
+    console.log("nameArray =", nameArray);
+    //sort the array
+    var nameArraySort = nameArray.sort();
+    console.log("nameArraySort =", nameArraySort);
+    //join to string
+    var nameSorted = nameArraySort.join('');
+    console.log("nameSorted =", nameSorted);
+    return nameSorted;
+}
+
+// sortUserName - a function that takes user input and sorts the letters
+// of their name
+function randomizeName(userName) {
+    // convert userName string to an array
+    var nameArray = userName.toLowerCase().split("");
+    console.log("nameArray =", nameArray);
+    // shuffle array with our shuffle function
+    var shuffledArray = shuffleArray(nameArray);
+    console.log("shuffledArray =", shuffledArray);
+    var shuffledString = shuffledArray.join("");
+    // shift to Title Case (like a name)
+    var newName = toTitleCase(shuffledString);
+    // return array to a string
+    return newName;
+}
+
+//outputs
+function main() {
+document.writeln("And oh hey, I fixed your name:");
+    sortUserName(), "</br>";
+document.writeln("<div class='name'>" + randomName + "</div>")
+}
+
+// this is an example function and this comment tells what it doees and what parameters are passed to it.
+function myFunction(param1, param2) {
+    // some code here
+    // return results;
+  }
+  
+  function main() {
+    console.log("Main function started.");
+    // the code that makes everything happen
+  }
+  
