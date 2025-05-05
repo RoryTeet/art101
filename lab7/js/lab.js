@@ -9,7 +9,7 @@
 // sortUserName - a function that takes user input and sorts the letters
 // of their name
 function sortUserName() {
-    let userName = window.prompt("Please state your name")
+    let userName = window.prompt("Please remind me of your name")
     console.log("userName=", userName)
   
     let nameArray = userName.split('');
