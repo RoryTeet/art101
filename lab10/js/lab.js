@@ -8,14 +8,14 @@
 
 
 function generateRandomText() {
-  const text = "Here is random text for you to see";
+  const text = "slay";
   const min = 3;
   const max = 100;
   const randLen = Math.floor(Math.random() * (max - min + 1)) + min;
 
   // Get a random starting index to slice the Lorem Ipsum text
   const randStart = Math.floor(Math.random() * (text.length - randLen + 1));
-  
+
   // Generate the random Lorem Ipsum-like text
   return text.slice(randStart, randStart + randLen);
 }
