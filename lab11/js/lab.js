@@ -8,6 +8,7 @@
 
 // Sorts the characters of a string in alphabetical order.
 function sortString(inputString) {
+
   // We have to convert our string to an array and back again to sort it
   return inputString.split('').sort().join('');
 }
@@ -24,11 +25,6 @@ $("#submit").click(function() {
   $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
 });
 
-
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
 
 // let's get this party started
 main();
