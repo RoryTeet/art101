@@ -17,7 +17,7 @@ $("#button-challenge").click(function(){
 });
 
   // now add (or subtract) the "special" class to the section
-  $("#challenge").toggleClass("special");
+  $("#button-challenge").toggleClass("special");
 
 
 
