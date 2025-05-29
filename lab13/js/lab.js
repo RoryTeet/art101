@@ -38,5 +38,3 @@ function whatHappensOnClick() {
 
 
 
-// let's get this party started
-main();
