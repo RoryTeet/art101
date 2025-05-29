@@ -32,8 +32,3 @@ function myFunction(param1, param2) {
   // return results;
 }
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
-
