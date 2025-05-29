@@ -37,5 +37,3 @@ function main() {
   // the code that makes everything happen
 }
 
-// let's get this party started
-main();
