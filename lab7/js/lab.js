@@ -1,4 +1,4 @@
-// index.js - Lab 7 Functions
+// index.js - Lab 7 Working with Function(s)
 // Author: Rory Teeter
 // Date: 05-01-25
 
