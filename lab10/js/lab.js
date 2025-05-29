@@ -35,7 +35,3 @@ function myFunction(param1, param2) {
   // some code here
   // return results;
 }
-
-
-// let's get this party started
-main();
