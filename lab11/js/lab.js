@@ -25,6 +25,3 @@ $("#submit").click(function() {
   $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
 });
 
-
-// let's get this party started
-main();
