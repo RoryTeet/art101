@@ -41,7 +41,3 @@ $("#button").click(function(){
   // add house to output div
   $("#output").html("<h2>" + house + "</h2>");
 });
-
-
-// let's get this party started
-main();
